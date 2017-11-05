@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+
+  "name": "Getting started example",
+  "description": "This extension shows a Google Image search result for the current page",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["http://localhost:4000/*"],
+      "js": ["myscript.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Click here!"
+ 
+ },
+  "permissions": [
+    "downloads",
+    "activeTab",
+    "tabs", "http://localhost:4000/*",
+    "contextMenus"
+  ]
+}
