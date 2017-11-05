@@ -1,5 +1,5 @@
 # Torrent_Extension
-MAHacks project. Won 4th place with it
+MAHacks project summer 2017. Won 4th place with it
 
 To Set Up backend:
 
