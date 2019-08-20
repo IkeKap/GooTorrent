@@ -1,4 +1,4 @@
-# Torrent_Extension
+# GooTorrent
 MAHacks project summer 2017. Won 4th place with it
 
 To Set Up backend:
